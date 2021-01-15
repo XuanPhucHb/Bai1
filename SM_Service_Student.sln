@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SM_Service", "SM_Service\", "{CEE14AF6-EB04-4539-9BCD-59561A4786CD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51597"
+		Debug.AspNetCompiler.PhysicalPath = "SM_Service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51597\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51597"
+		Release.AspNetCompiler.PhysicalPath = "SM_Service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51597\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51597"
+		SlnRelativePath = "SM_Service\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMClient", "SMClient\SMClient.csproj", "{2B79A3AD-B0B6-4E98-A1F6-F0F3AF499D79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CEE14AF6-EB04-4539-9BCD-59561A4786CD} = {CEE14AF6-EB04-4539-9BCD-59561A4786CD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE14AF6-EB04-4539-9BCD-59561A4786CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE14AF6-EB04-4539-9BCD-59561A4786CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE14AF6-EB04-4539-9BCD-59561A4786CD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE14AF6-EB04-4539-9BCD-59561A4786CD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2B79A3AD-B0B6-4E98-A1F6-F0F3AF499D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B79A3AD-B0B6-4E98-A1F6-F0F3AF499D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B79A3AD-B0B6-4E98-A1F6-F0F3AF499D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B79A3AD-B0B6-4E98-A1F6-F0F3AF499D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E3867CE-F62B-4A9F-BF38-5C21EE34FC5F}
+	EndGlobalSection
+EndGlobal
